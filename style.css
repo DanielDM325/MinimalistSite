@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+}
+
+header {
+    
+}
+
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    
+}
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+    border-bottom: solid 1px;    
+}
+
+nav ul li {
+    float: left;
+    padding: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Palatino, serif;
+}
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+}
