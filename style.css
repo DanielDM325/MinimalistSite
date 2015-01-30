@@ -16,22 +16,33 @@ footer {
     
 }
 
+nav {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
 nav ul {
     list-style-type: none;
     width: 100%;
     margin: 0px;
     padding: 0px;
     display: table;
-    border-bottom: solid 1px;    
+    border-bottom: solid 1px;
+    position: fixed;
 }
 
 nav ul li {
     float: left;
     padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Palatino, serif;
+    font-family: Georgia, serif;
 }
 
 p {
