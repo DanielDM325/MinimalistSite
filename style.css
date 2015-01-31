@@ -7,10 +7,11 @@ header {
 }
 
 main {
+    
 }
 
 footer {
-    
+    margin-top: 100px;
 }
 
 nav {
@@ -18,39 +19,44 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    display: table;
+    position: fixed;
+    top: 0px;
     width: 100%;
     margin: 0px;
     padding: 0px;
-    display: table;
-    border-bottom: solid 1px;
-    position: fixed;
-    top: 0px;
     background-color: white;
+    list-style-type: none;
+    border-bottom: solid 1px;
 }
 
 nav ul li {
     float: left;
     padding: 15px;
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 
 nav ul li:hover {
     text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: Georgia, serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding-left: 5px;
     padding-right: 5px;
+    font-family: Georgia, serif;
 }
 
 p {
-    font-family: Verdana, Geneva, sans-serif;
     margin-bottom: 15px;
     padding-left: 5px;
     padding-right: 5px;
+    font-family: Verdana, Geneva, sans-serif;
 }
 
 #content {
@@ -58,14 +64,23 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .column-2 {
+    min-width: 200px;
     float: left;
     width: 50%;
 }
 
 .column-3 {
+    min-width: 200px;
     float: left;
     width: 33.3%;
+}
+
+.column-4 {
+    min-width: 200px;
+    float: left;
+    width: 25%;
 }
