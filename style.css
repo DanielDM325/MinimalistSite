@@ -7,9 +7,6 @@ header {
 }
 
 main {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 footer {
@@ -28,6 +25,8 @@ nav ul {
     display: table;
     border-bottom: solid 1px;
     position: fixed;
+    top: 0px;
+    background-color: white;
 }
 
 nav ul li {
@@ -43,8 +42,30 @@ nav ul li:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 p {
     font-family: Verdana, Geneva, sans-serif;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.column-2 {
+    float: left;
+    width: 50%;
+}
+
+.column-3 {
+    float: left;
+    width: 33.3%;
 }
