@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    font-family: Verdana, sans-serif;
 }
 
 header {
@@ -19,7 +20,7 @@ footer {
 }
 
 nav {
-    font-family: Verdana, Geneva, sans-serif;
+
 }
 
 nav ul {
