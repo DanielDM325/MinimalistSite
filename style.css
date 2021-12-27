@@ -91,20 +91,29 @@ samp {
     margin-bottom: 100px;
 }
 
-.column-2 {
-    min-width: 200px;
+.column {
     float: left;
+    min-width: 300px;
+}
+
+.column::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.column-2 {
     width: 50%;
 }
 
 .column-3 {
-    min-width: 200px;
-    float: left;
     width: 33.3%;
 }
 
 .column-4 {
-    min-width: 200px;
-    float: left;
     width: 25%;
+}
+
+.column-5 {
+    width: 20%;
 }
