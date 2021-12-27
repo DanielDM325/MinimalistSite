@@ -11,7 +11,11 @@ main {
 }
 
 footer {
-    margin-top: 100px;
+    bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-top: solid 1px;
 }
 
 nav {
