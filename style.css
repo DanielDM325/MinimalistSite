@@ -59,6 +59,28 @@ p {
     padding-right: 5px;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tbody {
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #ddd !important;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th, td {
+    border: solid 1px;
+    padding: 8px;
+}
+
 code {
     font-family: Consolas, monospace;
     background-color: #eee;
