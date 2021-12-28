@@ -126,10 +126,17 @@ samp {
 .column {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 @media screen and (max-width: 900px) {
     .column {
         flex-direction: column;
     }
+}
+
+div.column > div {
+    min-width: 300px;
+    flex: 1;
 }
