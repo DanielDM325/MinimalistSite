@@ -61,6 +61,12 @@ p {
 
 code {
     font-family: Consolas, monospace;
+    background-color: #eee;
+}
+
+pre {
+    border: solid 1px;
+    background-color: #eee;
 }
 
 kbd {
