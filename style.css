@@ -102,6 +102,9 @@ samp {
 
 .column-2 {
     width: 50%;
+.row {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .column-3 {
