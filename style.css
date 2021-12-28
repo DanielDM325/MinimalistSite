@@ -89,32 +89,18 @@ samp {
     margin-bottom: 100px;
 }
 
-.column {
-    float: left;
-    min-width: 300px;
-}
-
-.column::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-.column-2 {
-    width: 50%;
 .row {
     margin-bottom: 50px;
     margin-top: 50px;
 }
 
-.column-3 {
-    width: 33.3%;
+.column {
+    display: flex;
+    flex-direction: row;
 }
 
-.column-4 {
-    width: 25%;
-}
-
-.column-5 {
-    width: 20%;
+@media screen and (max-width: 900px) {
+    .column {
+        flex-direction: column;
+    }
 }
