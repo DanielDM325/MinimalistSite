@@ -90,6 +90,12 @@ th, td {
     padding: 8px;
 }
 
+figure {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 code {
     font-family: Consolas, monospace;
     background-color: #eee;
