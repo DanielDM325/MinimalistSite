@@ -161,3 +161,14 @@ div.column > div {
     min-width: 300px;
     flex: 1;
 }
+
+.hebrew {
+    font-size: 17px;
+    direction: rtl;
+}
+
+.hebrew-classic {
+    font-family: serif;
+    font-size: 19px;
+    direction: rtl;
+}
