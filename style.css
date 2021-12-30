@@ -19,6 +19,15 @@ footer {
     border-top: solid 1px;
 }
 
+footer > * > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer > * > a:hover {
+    text-decoration: underline;
+}
+
 nav {
 
 }
