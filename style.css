@@ -146,6 +146,22 @@ math {
     width: fit-content;
 }
 
+blockquote p::before {
+    content: "“"
+}
+
+blockquote p::after {
+    content: "”";
+}
+
+blockquote cite::before {
+    content: " - "
+}
+
+blockquote cite {
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #content {
